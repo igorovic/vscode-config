@@ -1,0 +1,108 @@
+{
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "material-icon-theme.files.associations": {},
+  "typescript.suggest.autoImports": true,
+  "editor.suggest.insertMode": "insert",
+  "editor.wordWrap": "on",
+  "errorLens.fontStyleItalic": true,
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "eslint.debug": false,
+  "editor.linkedEditing": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    /** let eslint handle import order */
+    "source.organizeImports": "never"
+  },
+  "editor.codeActionWidget.includeNearbyQuickFixes": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "bookmarks.saveBookmarksInProject": true,
+  "search.followSymlinks": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    ".env.*": "env",
+    "**/tsconfig/*.json": "jsonc"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "debug.onTaskErrors": "debugAnyway",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "totalTypeScript.hiddenTips": [
+    "passing-generics-to-types",
+    "returntype-utility-type",
+    "typeof",
+    "tuple-type",
+    "conditional-type",
+    "type-alias-with-generics",
+    "keyof",
+    "non-null-expression",
+    "partial-utility-type",
+    "type-predicate",
+    "generic-slots-in-functions",
+    "as-const",
+    "interface-with-generics"
+  ],
+  "git.ignoreRebaseWarning": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.useESLintClass": true,
+  "eslint.timeBudget.onFixes": {
+    "warn": 3000,
+    "error": 6000
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.lineNumbers": "relative",
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "vim.foldfix": true,
+  "vim.leader": "<Space>",
+  "vim.startInInsertMode": false,
+  "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.textColor": "white",
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "leader",
+        "i"
+      ],
+      "commands": [
+        "extension.toggleBool"
+      ]
+    }
+  ]
+}
